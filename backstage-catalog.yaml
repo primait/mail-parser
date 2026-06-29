@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mail-parser"
+  description: "mail-parser is an e-mail parsing library written in Rust"
+spec:
+  type: "library"
+  lifecycle: production
+  owner: "group:default/team-claims-operations"
+  system: prima.it
